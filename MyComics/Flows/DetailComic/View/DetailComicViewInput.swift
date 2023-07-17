@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol DetailComicsViewInput: AnyObject {
+protocol DetailComicViewInput: AnyObject {
     func updateView()
 }

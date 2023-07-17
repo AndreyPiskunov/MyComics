@@ -7,17 +7,16 @@
 
 import Foundation
 
-final class DetailComicsPresenter {
+final class DetailComicPresenter {
     
     // MARK: - Properties
     
-    weak var view: DetailComicsViewInput?
-    
+    weak var view: DetailComicViewInput?
 }
 
-// MARK: - DetailComicsViewOutput -
+// MARK: - DetailComicViewOutput -
 
-extension DetailComicsPresenter: DetailComicsViewOutput {
+extension DetailComicPresenter: DetailComicViewOutput {
     func viewIsReady() {
     }
 }

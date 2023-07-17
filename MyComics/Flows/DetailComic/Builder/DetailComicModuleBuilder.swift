@@ -7,11 +7,11 @@
 
 import UIKit
 
-final class DetailComicsModuleBuilder {
+final class DetailComicModuleBuilder {
     
     static func build() -> UIViewController {
-        let presenter = DetailComicsPresenter()
-        let vc = DetailComicsViewController(presenter: presenter)
+        let presenter = DetailComicPresenter()
+        let vc = DetailComicViewController(presenter: presenter)
         presenter.view = vc
         return vc
     }

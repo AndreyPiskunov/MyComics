@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol DetailComicsViewOutput: AnyObject {
+protocol DetailComicViewOutput: AnyObject {
     func viewIsReady()
 }
